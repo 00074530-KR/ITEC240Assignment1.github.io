@@ -1,0 +1,56 @@
+/*Not sure how to make the nav bars side to side instead of vertical... I gave the nav bar its own ordered list class in an attempt to keep it separate from the rest of the body's list elements.*/
+.nav {float:center;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:#4FAF42;
+	display:block;
+text-align:center;
+text-decoration:none;
+}
+.nav li {
+
+}
+
+.nav li:hover{background-color:green;
+color:white;
+}
+
+  
+body {background-image:url("../images/u-lo-nhj9hoKJp-U-unsplash.jpg");
+background-repeat:repeat;
+font-family: Calibri, Veranda;
+font-size:16px;}
+
+.head {align-content:center;
+align-items:center;
+justify-content:center;}
+
+.container { align-content:center;
+display:flex;
+flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    text-align: left;
+border:2px solid black;
+margin:20px;
+}
+.bottomright {color:white;}
+
+div {background-color:#4FAF42;
+
+}
+
+nav{display:block;
+}
+nav:hover {}
+
+
+	table, td, th 
+	{border: 2px solid indigo; 
+	border-collapse: collapse;
+	padding:15px;}
+	th {background-color: yellow; border-style:dotted;}
+	tr:nth-child(even){background-color:#7F0000; color:white;}
+	td:hover {
+	
